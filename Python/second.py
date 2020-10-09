@@ -42,20 +42,25 @@
 # print("End of the program")    
 
 
-print("Applying for Course")
+# print("Applying for Course")
 
-age = int(input("Enter the Age: "))
+# age = int(input("Enter the Age: "))
 
-if age >=18 and age <=25:
-    print("Application Accepted")
-elif age <=17:
-    print("Insufficient age: ",age)
-    print("Application got Rejected")
-else:
-    print("Age bar",age)
-    print("Application got Rejected")
+# if age >=18 and age <=25:
+#     print("Application Accepted")
+# elif age <=17:
+#     print("Insufficient age: ",age)
+#     print("Application got Rejected")
+# else:
+#     print("Age bar",age)
+#     print("Application got Rejected")
 
-print("End of the program")
+# print("End of the program")
+
+
+num = (1000 % 10)
+
+print(num)
     
     
     
