@@ -27,3 +27,12 @@ def getdata():
     return 3.14,85
 pi,a = getdata()
 print(pi,a)
+
+
+def fact(n):
+    if n == 1:
+        return 1
+    else:
+        return n * fact(n-1)
+    
+print(fact(4))
